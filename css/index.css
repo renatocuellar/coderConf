@@ -115,3 +115,14 @@
 #carouselExampleIndicators .overlay .row {
     height: 100%;
 }
+
+.btn-coder {
+    margin-left: 15px;
+    background-color: #E0FF00;
+    color: black !important;
+}
+
+.btn-coder:hover {
+    color: white !important;
+    background-color: #000 !important;
+}
