@@ -126,3 +126,7 @@
     color: white !important;
     background-color: #000 !important;
 }
+
+#speakers .text__speaker {
+    margin-top: 30px !important;
+}
