@@ -130,3 +130,18 @@
 #speakers .text__speaker {
     margin-top: 30px !important;
 }
+
+#place-time {
+    background-color: var(--bs-dark);
+    color: white;
+}
+
+#place-time img {
+    max-width: 100%;
+}
+
+#conviertete-en-speaker .btn-coder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
