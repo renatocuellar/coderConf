@@ -145,3 +145,25 @@
     align-items: center;
     justify-content: center;
 }
+
+.button_conf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text__padding_city {
+    padding: 8rem 4rem 0.5rem 4rem;
+}
+
+.speakers__margin {
+    margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .text__padding_city {
+        padding: 2rem 1rem 0.5rem 1rem;
+    }
+}
