@@ -145,3 +145,77 @@
     align-items: center;
     justify-content: center;
 }
+
+.button_conf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text__padding_city {
+    padding: 8rem 4rem 0.5rem 4rem;
+}
+
+.speakers__margin {
+    margin-top: 2.5rem;
+}
+
+.hero__oradores {
+    background-image: url("../assets/pexels-matheus-bertelli-3321793.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
+    width: auto;
+    height: 50vh;
+}
+
+.hero__oradores h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    text-shadow: 5px 5px black;
+    font-size: 4rem;
+}
+
+.wrapper__conviertete {
+    max-inline-size: 1158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.main_question {
+    max-inline-size: 1158px;
+    margin: auto;
+}
+
+.container_preguntas {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.box__question {
+    background-color:#eef1f5;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.container__button {
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .text__padding_city {
+        padding: 2rem 1rem 0.5rem 1rem;
+    }
+}
