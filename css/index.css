@@ -162,6 +162,26 @@
     margin-top: 2.5rem;
 }
 
+.hero__oradores {
+    background-image: url("../assets/pexels-matheus-bertelli-3321793.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
+    width: auto;
+    height: 50vh;
+}
+
+.hero__oradores h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    text-shadow: 5px 5px black;
+    font-size: 4rem;
+}
+
 @media screen and (max-width: 600px) {
     .text__padding_city {
         padding: 2rem 1rem 0.5rem 1rem;
