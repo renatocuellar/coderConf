@@ -182,6 +182,14 @@
     font-size: 4rem;
 }
 
+.wrapper__conviertete {
+    max-inline-size: 1158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 @media screen and (max-width: 600px) {
     .text__padding_city {
         padding: 2rem 1rem 0.5rem 1rem;
